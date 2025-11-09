@@ -1,65 +1,65 @@
-// Question 1
-// Write a C++ program to check for vowels 
+Question 1
+Write a C++ program to check for vowels 
 
-// if else
+if else
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     char ch;
-//     cout << "Enter a lowercase character: ";
-//     cin >> ch;
+int main() {
+    char ch;
+    cout << "Enter a lowercase character: ";
+    cin >> ch;
 
-//     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-//         cout << ch << " is a vowel.";
-//     } else {
-//         cout << ch << " is not a vowel.";
-//     }
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+        cout << ch << " is a vowel.";
+    } else {
+        cout << ch << " is not a vowel.";
+    }
 
-//     return 0;
-// }
-
-
-
-
-// // switch
-
-// #include <iostream>
-// using namespace std;
-
-// int main() {
-//     char ch;
-//     cout << "Enter a lowercase character: ";
-//     cin >> ch;
-
-//     if (ch == 'a')
-//         cout << "Vowel";
-//     else if (ch == 'e')
-//         cout << "Vowel";
-//     else if (ch == 'i')
-//         cout << "Vowel";
-//     else if (ch == 'o')
-//         cout << "Vowel";
-//     else if (ch == 'u')
-//         cout << "Vowel";
-//     else
-//         cout << "Not a vowel";
-
-//     return 0;
-// }
+    return 0;
+}
 
 
 
-// // Question 2
-// // Write a C++ program to perform the following task
-// // 1 Area of circle
-// // 2 Circumference of circle 
-// // 3 Area of triangle
-// // 4 Area of rectangle
+
+// switch
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    char ch;
+    cout << "Enter a lowercase character: ";
+    cin >> ch;
+
+    if (ch == 'a')
+        cout << "Vowel";
+    else if (ch == 'e')
+        cout << "Vowel";
+    else if (ch == 'i')
+        cout << "Vowel";
+    else if (ch == 'o')
+        cout << "Vowel";
+    else if (ch == 'u')
+        cout << "Vowel";
+    else
+        cout << "Not a vowel";
+
+    return 0;
+}
 
 
-// // if
+
+// Question 2
+// Write a C++ program to perform the following task
+// 1 Area of circle
+// 2 Circumference of circle 
+// 3 Area of triangle
+// 4 Area of rectangle
+
+
+// if
 
 #include <iostream>
 using namespace std;
