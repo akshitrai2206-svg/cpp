@@ -1,158 +1,158 @@
-// // Question 1
-// // Write a C++ program to check for positive, negative and zero using do while loop
+// Question 1
+// Write a C++ program to check for positive, negative and zero using do while loop
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     int num, i = 1;
-//     int positive = 0, negative = 0, zero = 0;
+int main() {
+    int num, i = 1;
+    int positive = 0, negative = 0, zero = 0;
 
-//     cout << "Enter 10 numbers: ";
+    cout << "Enter 10 numbers: ";
 
-//     do {
-//         cin >> num;
+    do {
+        cin >> num;
 
-//         if (num > 0) {
-//             positive++;
-//         }
-//         else if (num < 0) {
-//             negative++;
-//         }
-//         else {
-//             zero++;
-//         }
+        if (num > 0) {
+            positive++;
+        }
+        else if (num < 0) {
+            negative++;
+        }
+        else {
+            zero++;
+        }
 
-//         i++;
-//     } while (i <= 10);
+        i++;
+    } while (i <= 10);
 
-//     cout << "positive numbers: " << positive << endl;
-//     cout << "negative numbers: " << negative << endl;
-//     cout << "zeros: " << zero << endl;
+    cout << "positive numbers: " << positive << endl;
+    cout << "negative numbers: " << negative << endl;
+    cout << "zeros: " << zero << endl;
 
-//     return 0;
-// }
-
-
-
-// // Question 2
-// // Write a C++ program to check minimum number using do while loop
-
-// #include <iostream>
-// using namespace std;
-
-// int main() {
-//     int num, i = 1, min;
-
-//     cout << "Enter 10 numbers: " << endl;
-
-//     cin >> num;
-//     min = num;  
-//     i++;  
-
-//     do {
-//         cin >> num;
-//         if (num < min) {
-//             min = num; 
-//         }
-//         i++;
-//     } while (i <= 10);
-
-//     cout << "The minimum number is: " << min;
-
-//     return 0;
-// }
+    return 0;
+}
 
 
 
-// // Question 3
-// // Write a C++ program to check maximum number among 10 numbers
+// Question 2
+// Write a C++ program to check minimum number using do while loop
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     int num, i = 1, max;
+int main() {
+    int num, i = 1, min;
 
-//     cout << "Enter 10 numbers: " << endl;
+    cout << "Enter 10 numbers: " << endl;
 
-//     cin >> num;
-//     max = num;
-//     i++;
+    cin >> num;
+    min = num;  
+    i++;  
 
-//     do {
-//         cin >> num;
-//         if (num > max) {
-//             max = num;   
-//         }
-//         i++;
-//     } while (i <= 10);
+    do {
+        cin >> num;
+        if (num < min) {
+            min = num; 
+        }
+        i++;
+    } while (i <= 10);
 
-//     cout << "The maximum number is: " << max << endl;
+    cout << "The minimum number is: " << min;
 
-//     return 0;
-// }
-
-
-
-// // Question 4
-// // Write a C++ program to display all even numbers using do while loop 
-
-// #include <iostream>
-// using namespace std;
-
-// int main() {
-//     int num, i = 1;
-
-//     cout << "Enter 10 numbers: ";
-
-//     do {
-//         cin >> num;
-//         if (num % 2 == 0) {  
-//             cout << num << " is even";
-//         }
-//         i++;
-//     } while (i <= 10);
-
-//     return 0;
-// }
+    return 0;
+}
 
 
 
-// // Question 5
-// // Write a C++ program to check palindrome using do while loop 
+// Question 3
+// Write a C++ program to check maximum number among 10 numbers
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     int num, original, reversed = 0, digit;
+int main() {
+    int num, i = 1, max;
 
-//     cout << "Enter a number: ";
-//     cin >> num;
+    cout << "Enter 10 numbers: " << endl;
 
-//     original = num;   
+    cin >> num;
+    max = num;
+    i++;
 
-//     do {
-//         digit = num % 10;              
-//         reversed = reversed * 10 + digit; 
-//         num = num / 10;                
-//     } while (num > 0);
+    do {
+        cin >> num;
+        if (num > max) {
+            max = num;   
+        }
+        i++;
+    } while (i <= 10);
 
-//     if (original == reversed) {
-//         cout << original << " is a Palindrome.";
-//     } 
-//     else {
-//         cout << original << " Not a Palindrome.";
-//     }
+    cout << "The maximum number is: " << max << endl;
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 
-// // Question 6
-// // Write a C++ program to check armstrong number using do while loop
+// Question 4
+// Write a C++ program to display all even numbers using do while loop 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, i = 1;
+
+    cout << "Enter 10 numbers: ";
+
+    do {
+        cin >> num;
+        if (num % 2 == 0) {  
+            cout << num << " is even";
+        }
+        i++;
+    } while (i <= 10);
+
+    return 0;
+}
+
+
+
+// Question 5
+// Write a C++ program to check palindrome using do while loop 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, original, reversed = 0, digit;
+
+    cout << "Enter a number: ";
+    cin >> num;
+
+    original = num;   
+
+    do {
+        digit = num % 10;              
+        reversed = reversed * 10 + digit; 
+        num = num / 10;                
+    } while (num > 0);
+
+    if (original == reversed) {
+        cout << original << " is a Palindrome.";
+    } 
+    else {
+        cout << original << " Not a Palindrome.";
+    }
+
+    return 0;
+}
+
+
+
+// Question 6
+// Write a C++ program to check armstrong number using do while loop
 
 #include <iostream>
 using namespace std;
